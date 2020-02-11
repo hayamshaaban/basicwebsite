@@ -26,3 +26,15 @@ Route::post('/contact/submit','MessagesController@submit');
 
 /*todos projects*/ 
 Route::resource('todos','TodoController');
+
+/*album projects*/ 
+Route::resource('albums','AlbumController');
+
+/*photos projects*/ 
+Route::get('/photos/create/{id}','PhotoController@create');
+Route::post('/photos/store','PhotoController@store');
+Route::get('/photos/{id}','PhotoController@show');
+Route::delete('/photos/{id}','PhotoController@destroy');
+
+
+//Route::resource('photos','PhotoController');

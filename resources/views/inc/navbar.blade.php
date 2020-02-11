@@ -19,6 +19,9 @@
             <li class="nav-item {{Request::is('todos') ? 'active' : ''}}">
                 <a class="nav-link" href="http://localhost/basicwebsite/public/todos">Todos</a>
             </li>
+            <li class="nav-item {{Request::is('albums') ? 'active' : ''}}">
+                <a class="nav-link" href="http://localhost/basicwebsite/public/albums">Album</a>
+            </li>
         </ul>
     </div>
 </nav>
