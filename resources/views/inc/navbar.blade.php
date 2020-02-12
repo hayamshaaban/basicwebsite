@@ -22,6 +22,12 @@
             <li class="nav-item {{Request::is('albums') ? 'active' : ''}}">
                 <a class="nav-link" href="http://localhost/basicwebsite/public/albums">Album</a>
             </li>
+            <li class="nav-item {{Request::is('albums') ? 'active' : ''}}">
+                <a class="nav-link" href="http://localhost/basicwebsite/public/api/items">Api</a>
+            </li>
+            <li class="nav-item {{Request::is('albums') ? 'active' : ''}}">
+                <a class="nav-link" href="http://localhost/basicwebsite/itemmanger">Item Manger</a>
+            </li>
         </ul>
     </div>
 </nav>

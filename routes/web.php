@@ -36,5 +36,4 @@ Route::post('/photos/store','PhotoController@store');
 Route::get('/photos/{id}','PhotoController@show');
 Route::delete('/photos/{id}','PhotoController@destroy');
 
-
-//Route::resource('photos','PhotoController');
+Route::resource('api/items','ItemController');
